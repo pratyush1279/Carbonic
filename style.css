@@ -1,0 +1,61 @@
+/* Custom styles for Carbonic UI */
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-size: 24px; /* Further increased base font size */
+  line-height: 1.7; /* More readable line height */
+  padding-bottom: 80px; /* Extra space at bottom for scrollability */
+}
+
+/* Soft shadow for cards and images */
+.card, .shadow-md, .shadow-lg {
+  box-shadow: 0 4px 24px 0 rgba(255, 148, 148, 0.10), 0 1.5px 6px 0 rgba(0,0,0,0.04);
+}
+
+/* Smooth hover effect for buttons and cards */
+button, .hover\:shadow-xl, .hover\:scale-110, a {
+  transition: all 0.2s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* Rounded corners for all cards and images */
+.rounded-2xl, img {
+  border-radius: 1.25rem;
+}
+
+/* Modern typography tweaks */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.5px;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  margin-top: 2.5rem; /* More space above headings */
+  margin-bottom: 1.5rem; /* More space below headings */
+}
+
+h1 {
+  font-size: 3.5rem; /* Larger main heading */
+}
+h2 {
+  font-size: 2.5rem; /* Larger secondary heading */
+}
+h3 {
+  font-size: 2rem; /* Larger tertiary heading */
+}
+
+/* Pastel background for selection */
+::selection {
+  background: #FFD1D1;
+  color: #FF9494;
+}
+
+/* Navbar styles */
+header {
+  font-size: 2.2rem !important; /* Larger font for navbar */
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+header nav ul {
+  font-size: 2rem !important; /* Larger font for nav links */
+}
+
+header nav ul li a {
+  padding: 0.75rem 1.5rem !important;
+} 
